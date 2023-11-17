@@ -1,6 +1,36 @@
 
-.header-background {
+* {
 
-    /* height: 40vh; */
+    margin: 0;
+    border: 0;
+}
+
+.header {
+
+    background-color: #E5E5E5;
+    min-height: 100vh;
+}
+
+.header-background-container {
+
     width: -webkit-fill-available;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+}
+
+.header-background-container img {
+
+    margin-top: 10%;
+}
+
+.top-bar {
+
+    min-height: 100px;
+    background-color: rgba(103, 117, 118, 0.808);
+}
+
+.secondary-top-bar {
+
+    min-height: 100px;   
 }
