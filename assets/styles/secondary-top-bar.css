@@ -10,6 +10,7 @@
 .secondary-top-bar {
 
     display: flex;
+    align-items: flex-start;
     user-select: none;
 }
 
@@ -20,7 +21,7 @@
 
 .hover-btn {
   
-    height: -webkit-fill-available;
+    /* height: -webkit-fill-available; */
     padding: 8px 18.7px;
     letter-spacing: 1px;
     color: #004033;
